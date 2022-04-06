@@ -55,6 +55,6 @@ let myUser = {
 
 // console.log(myUser);
 
-let showSentence = `my name is ${myUser.firstName} i am  ${myUser.userAge} years old, My address is ${myUser.address}`;
+let showSentence = `my name is ${myUser.firstName} i am  ${myUser.userAge} years old, My address is ${myUser.address[0]}`;
 
 // console.log(showSentence)
